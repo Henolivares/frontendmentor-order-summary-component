@@ -16,10 +16,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
       rel="stylesheet" />
 
     <script type="module" src="./main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <main class="Main">
+      <article class="Article">
+        <header class="Article-header">
+          <img
+            src="./images/illustration-hero.svg"
+            alt="illustration of a person listening to music" />
+        </header>
+        <div class="Article-body">
+          <h1 class="Article-h1">Order Summary</h1>
+          <p class="Article-p">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="Article-div">
+            <div class="Article-info">
+              <div class="Article-left">
+                <span class="Article-iconWrapper">
+                  <img src="./images/icon-music.svg" alt="music icon"
+                /></span>
+                <div class="Article-plan">
+                  <h2 class="Article-h2">Annual Plan</h2>
+                  <p class="Article-price">$59.99/year</p>
+                </div>
+              </div>
+
+              <button class="Article-btnChange">Change</button>
+            </div>
+            <button class="Article-btn Article-btn--proceed">
+              Proceed to Payment
+            </button>
+            <button class="Article-btn Article-btn--cancel">
+              Cancel Order
+            </button>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>

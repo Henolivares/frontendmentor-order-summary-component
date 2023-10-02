@@ -1,0 +1,25 @@
+:root {
+  --clr-primary: hsl(245, 75%, 52%);
+  --clr-primary-hover: hsl(245, 83%, 68%);
+  --clr-heading: hsl(223, 47%, 23%);
+  --clr-body: hsl(224, 23%, 55%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-btn-box-shadow: hsla(245, 75%, 52%, 0.188);
+  --clr-card-box-shadow: hsla(228, 87%, 40%, 0.15);
+  --clr-main-bg: hsl(225, 100%, 94%);
+
+  --ff: 'Red Hat Display', sans-serif;
+
+  --fs-heading-l: clamp(1.375rem, 0.563vw + 1.243rem, 1.75rem);
+  --fs-heading-s: clamp(0.875rem, 0.188vw + 0.831rem, 1rem);
+  --fs-body: clamp(0.938rem, 0.094vw + 0.915rem, 1rem);
+  --fs-btn-l: 0.9375rem;
+  --fs-btn-s: clamp(0.813rem, 0.094vw + 0.79rem, 0.875rem);
+
+  --lh-body: 1.625;
+  --lh-base: 1;
+
+  --fw-500: 500;
+  --fw-700: 700;
+  --fw-900: 900;
+}
